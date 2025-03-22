@@ -1,0 +1,85 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgba(156, 197, 233, 0.842);
+    color: #0e0c0c;
+    padding: 20px;
+}
+button {
+    background-color: #201e1e;
+    border: none;
+    border-radius: 5px;
+    width: 188px;
+    height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 40px;
+}
+h4 {
+    margin-top: 40px;
+    color: rgb(22, 19, 19); /* Muda a cor do texto para azul */
+    font-size: 36px; /* Define o tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+   
+}
+.header a {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link-whatsapp img {
+    height: 60px;
+    right: 20px;
+    bottom: 20px;
+}
+.Instagram img {
+    height: 60px;
+    left: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+.linkedln img {
+    height: 60px;
+    left: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+.gmail img {
+    height: 60px;
+    left: 10px;
+    bottom: 10px;
+    cursor: pointer
+}
+.telefone img{
+    height: 60px;
+    left: 10px;
+    bottom: 10px;
+    cursor: pointer
+}
+
+.instagram {
+    
+    height: 450px; 
+}
+.mario {
+    
+    height: 450px;
+}

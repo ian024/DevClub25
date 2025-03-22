@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HOVER*/
+h1 {
+    margin-top: 80px;
+    margin-left: 150px;
+}
+ h1:hover {
+    color: #0b0bdb;
+}
+
+/*CKECKED/ DISABLED/ FOCUS/ READ-ONLY*/
+
+input {
+    border: 2px solid #2e2d2d;
+    outline: none; /*tira a borda azul do input */
+    margin-top: 100px;
+    gap: 10px;
+}
+
+/*input:checked {
+    width: 100px;
+    height: 100px;
+} */
+
+/*
+input:disabled {
+    width: 100px;
+    height: 100px;
+}  */
+
+ input:focus {
+    border: 2px solid #4cf509;
+    outline: none; /*tira a borda azul do input */
+}
+
+input:read-only {
+    border: 2px solid #0513d1;
+    outline: none; /*tira a borda azul do input */
+}
+
+/*HOVER*/
+
+p {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #19191d;
+}
+
+p:hover{
+    color: #591697;
+}
+
+/*EMPTY*/
+.conteiner {
+    width: 200px;
+    height: 120px;
+    background: #0877b8;
+    margin-top: 140px;
+    margin-bottom: 80px;
+}
+/* SE DENTRO DA DIV ESTIVER VAZIA NO HTML, O EMPTY ATIVA */
+.conteiner:empty {
+    background: #4f097e;
+}
+
+/*LINK/VISITED*/
+
+a {
+    position: relative;
+    top: 50px;
+    margin-left: 50px;
+    color: #0606bb;
+}
+
+a:visited{
+    color: #da0813;
+}
+
+/*PSEUDO CLASSES- só usa : */
+
+/*before - insere conteudo antes do elemento / content:"" */
+/*after - insere conteudo depois do elemento*/
+/*hover - estiliza o elemento quando passa o mouse por cima*/
+/*focus - estiliza o elemento quando esta focado*/
+/*active - estiliza o elemento quando esta ativo*/
+/*visited - estiliza o elemento quando ja foi visitado*/
+/*checked - usado em radio / checkbox / select*/
+/*disabled - estiliza o elemento quando esta desabilitado/ input / button s*/
+/*enabled - estiliza o elemento quando esta habilitado*/
+/*read-only - estiliza o elemento quando esta somente leitura*/
+/*empty - estiliza o elemento que não tem filho*/
+/*link - estiliza o elemento quando esta em link*/
+
+
+/*first-child - estiliza o primeiro elemento filho/ primeira da li na ul */
+/*first-of-type - estiliza o primeiro elemento do tipo especifico*/
+/*last-child - estiliza o ultimo elemento filho*/
+/*last-of-type - estiliza o ultimo elemento do tipo especifico*/
+/*not - estiliza o elemento que nao esta na condição*/
+/*nth-child - estiliza o elemento que esta na posição especifica*/
+/*nth-last-child - estiliza o elemento que esta na posição especifica contando de tras para frente*/
+
+li:first-child {
+    color: #f50909;
+}
+
+/*
+p:first-of-type {    last-of-type é a mesma estilização a do lado 
+    color: #031a5a;
+    bottom: 50px;
+} 
+*/
+
+li:last-child {
+    color: #9ed30b;
+}
+
+.conteiner-1 :not(a) {
+    color: #861818;
+}
+li:nth-child(4) {
+    color: #0b0bdb;
+}

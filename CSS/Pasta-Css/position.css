@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 200vh;
+    height: 200vh;
+}
+
+.div-dad {
+    width: 350px;
+    height: 350px;
+    background-color: #da0d96;
+}
+
+.div-son {
+    width: 150px;
+    height: 150px;
+    background-color: #0d96da;
+}
+
+.div-preta {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+}

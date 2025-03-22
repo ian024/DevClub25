@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    margin: 47px 0 0px 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233d;
+    cursor: pointer;
+    margin-right: 32px;
+    letter-spacing: 0.88px;
+    text-align: center;
+    
+}
+
+.button-header {
+    background: #6fbf44;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    border: 1px solid #4CB538 ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #FFFFFF;
+    
+}
+
+.logo-img {
+    
+    margin: 140px 0 0 123px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84px;
+    width: 493px;
+   
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161a49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4b505a ;
+    margin-top: 47px;
+    margin-bottom: 55px;
+   
+}
+
+.button-main {
+    background: transparent;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #6FBF44;
+
+   /* top: 707px;
+    left: 801px;
+    border-radius: 6px;
+    width: 112px;
+    height: 27px;*/
+}
+
+@media screen and (max-width: 800px) {
+
+    header {
+       /* margin: 47px 0 0px 42px; */
+         display: block;
+    }
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        width: 124px;
+        height: 51px;
+        margin: 30px 0 0 75%;
+        display: block;
+    }
+
+    section {
+        margin-top: 50px; 
+        margin-left: 84px;
+        width: 493px;
+    } 
+
+    h1 {
+        line-height: 62px;
+        font-size: 45px;
+    }
+    
+    .logo-img {
+        
+        position: absolute;
+        max-width: 90%;
+        margin: 70% 10px 0 10px;
+    }
+}   
+
+@media  screen and (max-width: 560px) {
+    header {
+        margin: 47px 0 0px 42px;
+        display: block;
+    }
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        width: 124px;
+        height: 51px;
+        margin: 30px 0 0 70%;
+        display: block;
+    }
+
+    section {
+        margin-top: 50px; 
+        margin-left: 84px;
+        width: 400px;
+    } 
+
+    h1 {
+        line-height: 50px;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .logo-img {
+        
+        position: relative;
+        max-width: 90%;
+        margin: 30%;
+    }
+    
+}

@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    background: rgb(75, 73, 73);
+    width: 500px;
+    margin-top: 130px;
+}
+img{
+    width: 400px;
+    
+}
+
+@media (max-width:700px) {
+    div {
+        background: rgba(173, 154, 128, 0.932);
+        width: 250px;    
+        margin-top: 200px;
+    }
+    img{
+        width: 350px;
+    }
+}

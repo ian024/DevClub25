@@ -1,0 +1,92 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    /*background: linear-gradient(109deg, rgba(12, 14, 17, 0.815) 15%, rgb(84, 122, 119) 50%, rgba(37, 39, 43, 0.774) 85%); */
+}
+
+h1 {
+    margin-top: 40px;
+    color: rgb(242, 242, 247); /* Muda a cor do texto para azul */
+    font-size: 36px; /* Define o tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+   
+}
+
+body {
+    height: 100vh;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.73'%3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+/*  background-size: cover; */
+}
+
+.texto-introdutório {
+    width: 90%;
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: 50px;
+    
+}
+
+.dev-ian25 {
+    height: 300px;
+    margin-left: 40%;
+    
+}
+
+p {
+    color: #fffffff6;
+    font-size: 17px;
+    
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.link-whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+/* Media query - responsividade */
+
+@media(max-width: 990px) {
+    p {
+        
+        font-size: 15px ;
+        text-align: center;
+
+    }
+    
+    .caixa-mae {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 10px;
+        gap: 5px;
+    }
+
+    .texto-introdutório {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .dev-ian25 {
+        width: 40vw;
+        height: auto;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,16 @@
+
+.box  {
+    width: 50px;
+    height: 50px;
+    background: #db0606;
+    padding: 80px;
+    margin: 40px
+}
+
+.box-2  {
+    width: 50px;
+    height: 50px;
+    background: #d48113;
+    margin: 80px;
+    padding: 40px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coleta de informações</title>
+</head>
+
+<body>
+
+    <h1> Essa é uma página de coleta de informações!</h1>
+
+    <input placeholder="Digite seu nome .." autofocus />
+    <input placeholder="Digite seu sobrenome.." />
+    <input placeholder="Digite seu CPF.." />
+    <input placeholder="Digite seu RG.." />
+
+    <label for="data nascimento">Data de nascimento</label>
+    <input id="data nascimento" type="date" />
+    <br>
+    <br>
+
+    <label for="rua">Sua Rua:</label>
+    <input id="rua" type="street-address" />
+
+    <br>
+    <br>
+
+    <label for="Seu email">Seu email:</label>
+    <input id="Seu email" type="email" />
+
+    <br>
+    <br>
+
+    <label for="Sua senha">Sua senha:</label>
+    <input id="Sua senha" type="password" />
+
+    <br>
+    <br>
+
+    <input type="submit" />
+
+    <br>
+    <br>
+
+    <h2> Qual sua rede social favorita ? </h2>
+
+    <br>
+
+    <label for="Facebook"> Facebook </label>
+    <input type="radio" id="Facebook" name="rede-sociais" />
+
+    <br>
+
+    <label for="Instagram"> Instagram </label>
+    <input type="radio" id="Instagram" name="rede-sociais" />
+
+    <br>
+
+    <label for="WhatsApp"> WhatsApp </label>
+    <input type="radio" id="WhatsApp" name="rede-sociais" />
+
+    <br>
+    <br>
+
+    <label for="Seu Salário"> Seu Salário</label>
+    <input type="range" id="Seu salário " min="R$ 1400,00" max="R$ 10500,00" value="R$ 2500,00" />
+    
+    <br>
+    <br>
+    
+    <input type="file" multiple accept="img/*" />
+    
+    <br>
+    <br>
+
+    
+    <label for="image">Imagem:</label>
+    <input
+    type="image"
+    id="image"
+    name="image"
+    src="https://via.placeholder.com/50"
+    alt="sua iamgem aqui" />
+
+    <br>
+    <br>
+
+    <!--O input também pode ser utilizado como um botão  -->
+    <label for="button">Botão:</label>
+    <input type="button" id="button" value="Clique-me" />
+
+    <img src="../IMG_ian.png" alt="foto do ian" height="380"> 
+</body>
+
+</html>

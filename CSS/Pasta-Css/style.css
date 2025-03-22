@@ -1,0 +1,42 @@
+ 
+
+/*selecionar com ID = identificador único, marcamos no html e depois usanso # para selecionar a id  */
+
+#titulo {
+    color: rgba(240, 235, 235, 0.993);
+    background: black ;
+    font-size: 55px;
+}   
+
+h1 {
+    color: rgba(241, 28, 28, 0.993);
+    background: black ;
+}
+
+/* Selecionar com CLASS, marcamos no html e depois usamos "class" para selecionar a CLASS */
+
+.boas-vindas {
+    color: rgba(3, 3, 3, 0.938);
+    font-size: 20px;
+
+} 
+
+p {
+    color: rgba(14, 22, 95, 0.76);
+    font-size: 20px;
+}
+
+button {
+    background: rgba(235, 25, 25, 0.925);
+    border-color: rgb(75, 221, 30);
+}
+
+/* podemos usar a ( , ) para juntar váiros seletores numa mesma linha de código 
+    
+EXEMPLO :
+
+#titulo, .boas-vindas, button {
+    color: red ;
+}
+
+*/

@@ -1,0 +1,39 @@
+
+/*PSEUDO ELEMENTOS - usa-se :: */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ input {
+    margin-left: 50px;
+    border: 1px solid #19191d;
+    color: #19191d;
+ }
+    input::placeholder {
+        color: #0707ad;
+
+    }
+
+p {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #19191d;
+}
+
+
+p::first-line {
+    font-size: 20px;
+    color: #1c166b;
+} 
+
+a {
+    position: relative;
+    top: 50px;
+    margin-left: 50px;
+    color: #0606bb;
+}
+
+
+
