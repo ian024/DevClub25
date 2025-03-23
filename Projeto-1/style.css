@@ -101,6 +101,8 @@ header {
     margin: 24px 0 0 57px;
 }
 
+/* responsividade abaixo */
+
 @media screen and (max-width: 900px) {
     .conteiner-left {
         display: block;
