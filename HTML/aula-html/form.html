@@ -3,47 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document form</title>
+    <title>Formulário-form </title>
 </head>
 <body>
-
+    <!-- action é a função que enviará os dados para o back-end (linguagem) -->
     <form action="" method="get">
 
         <h1> Digite seus dados </h1>
     
+        <div>
+            <label for="nome"> Nome: </label>
+            <input type="text" id="nome" name="nome" placeholder="Digite Nome completo" minlength="2" required/>
+        </div>
         <br>
-        <label>
-            nome:
-        <input type="text" name="nome" />
-        </label>
-    
-        <label>
-            rua: 
-        <input type="text" name="rua" autocomplete="street-address" />
-        </label>
-    
-        <label>
-            número: 
-        <input type="number" name="numer" />
-        </label>
-    
-        <label>
-            Email:
-        <input type="email" name="email" />
-        </label>
-    
-        <label>
-            foto:
-        <input type="file" name="arquivo" >
-        </label>
-    
-        <button type="reset" > Limpar os dados </button> 
-        <button type="submit" > Enviar os dados</button>
+        <div>
+            <label for="tel"> Telefone: </label>
+            <input type="text" id="tel" name="telefone" placeholder="(00)99900-9009" maxlength="14"/>
+        </div>
+        <br>
+        <div>
+            <label for="dataNascimento"> Data de nascimento: </label>
+            <input type="date" id="dataNascimento" name="dataNascimento" required/>
+        </div>
+        <br>
+        <div>
+            <label for="sexo"> Sexo: </label>
+            <select name="sexo" id="sexo" autocomplete="off" >
+                <option value="masculino"> Masculino </option>
+                <option value="feminino"> Feminino </option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="rua"> Rua: </label>
+            <input type="text" id="rua" name="rua" autocomplete="street-address" />
+        </div>
+        <br>
+        <div>
+            <label for="number"> Número: </label>
+            <input type="number" id="number" name="numer" /> 
+        </div>
+        <br>
+        <div>
+            <label for="e-mail"> E-mail: </label>
+            <input type="email" id="e-mail" name="email" /> 
+        </div>
+        <br>
+        <div>
+            <label for="plano">Tipo de Plano:</label>
+            <input type="radio" id="plano"  name="tipoPlano" value="gratuito" /> Gratuito
+            <input type="radio" id="plano" name="tipoPlano" value="premium" /> Premium 
+        </div>
+        <br>
+        <div>
+            <label for="jogos">Interesses em jogos:</label>
+            <input type="checkbox" id="jogos" name="luta" value="luta" /> luta
+            <input type="checkbox" id="jogos" name="corrida" value="corrida" /> corrida
+            <input type="checkbox" id="jogos"  name="futebol" value="futebol" /> futebol
+            <input type="checkbox" id="jogos" name="aventura" value="aventura" /> aventura 
+        </div>
+        <br>
+        <div>
+            <label for="senha"> Senha: </label>
+            <input type="password" id="senha" name="senha" required/> 
+        </div>
+        <br>
+<!--    <div>
+            <label> Confirmar senha: </label>
+            <input type="password" name="confSenha" />
+        </div>   --> 
+        <br>
+        <div>
+            <label for="termos">Li e concordo com os termos e usos do aplicativo ...</label>
+            <input type="checkbox" id="termos" name="termosUsos" value="termosUsos" required /> Aceito os termos
+        </div>
+        <br>
+        <div>
+            <button type="reset" > Limpar os dados </button> 
+            <button type="submit" > Salvar</button>
+        </div>
         
-    
-    
     </form>
     
 </body>
 </html>
 
+<!-- Formulário HTML básico com os principais tipos de input
+ 
+    - text: campo de texto simples
+    - number: campo para números
+    - email: campo para email
+    - file: campo para upload de arquivos
+    - submit: botão para enviar o formulário
+    - reset: botão para limpar os dados do formulário
+
+ EXEMPLOS ABAIXO ; 
+    
+        - <input type="text" name="nome" />: campo de texto para o nome
+        - <input type="number" name="numer" />: campo numérico para o número
+        - <input type="email" name="email" />: campo de email
+        - <input type="file" name="arquivo">: campo para upload de arquivo
+        - <button type="reset"> Limpar os dados </button>: botão para limpar os dados do formulário
+        - <button type="submit"> Enviar os dados</button>: botão para enviar os dados do formulários
+     <label> Escolhe um arquivo: </label>   
+        <input type="file" name="arquivo" >
+        <br><br> 
+    
+
+
+-->
