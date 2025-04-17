@@ -1,0 +1,40 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h1, h3 {
+    margin: 0;
+}
+
+.card-subtitle {
+    font-size: 13px;
+}
+
+.cards {
+    margin-top: 20px;
+
+}
+
+.card {
+    background-color: grey;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.card-price {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+figure {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
